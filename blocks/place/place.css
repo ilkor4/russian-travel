@@ -1,0 +1,12 @@
+.place {
+  padding-top: 80px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: calc((100% - 40px)/2 - 12px) calc((100% - 40px)/2 + 12px);
+  grid-template-rows: max-content  1fr;
+  gap: 48px 32px;
+}
+
+.place:first-of-type {
+padding-top: 0;
+}
