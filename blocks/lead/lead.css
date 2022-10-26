@@ -1,9 +1,22 @@
 .lead {
   margin: auto;
-  padding-top: 56px;
-  box-sizing: content-box;
   text-align: center;
   display: flex;
   flex-direction: column;
-  max-width: 984px;
+  max-width: calc(100% - 296px);
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
 }
+
+@media screen and (max-width: 1124px) {
+  .lead {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .lead {
+    max-width: 100%;
+  }
+}
+

@@ -1,8 +1,24 @@
 .header {
-  max-width: 1184px;
+  max-width: calc(100% - 96px);
   margin: auto;
   text-align: right;
   display: flex;
   align-items: flex-end;
   flex-direction: row;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+@media screen and (max-width: 984px) {
+  .header {
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .header {
+    max-width: calc(100% - 32px);
+    justify-content: space-between;
+    align-items: center;
+  }
 }

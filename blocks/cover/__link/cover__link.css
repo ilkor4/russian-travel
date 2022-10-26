@@ -1,0 +1,23 @@
+.cover__link {
+  /* Основные характеристики блока */
+  padding: 20px; /* Текст не должен занимать весь блок */
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.6 / 1; /* Задаем высоту от ширины */
+  /* Стили к bckg */
+  background-image: url(../../../images/cover/cover\(1184:740\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Стили контейнера */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Текстовые стили */
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  }
+

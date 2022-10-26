@@ -8,3 +8,15 @@
 .place__paragraph:nth-of-type(2){
   margin-top: 26px;
 }
+
+@media screen and (max-width: 984px) {
+  .place__subtitle {
+    font-size: 16px;
+    line-height: 1.1;
+  }
+
+  .place__paragraph:nth-of-type(2){
+    margin-top: 25px;
+  }
+}
+

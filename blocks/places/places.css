@@ -1,7 +1,29 @@
 .places {
   margin: auto;
-  max-width: 984px;
-  padding-top: 92px;
+  max-width: calc(100% - 296px);
   display: flex;
   flex-direction: column;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 1124px) {
+  .places {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .places {
+    max-width: calc(100% - 48px);
+    row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places {
+    max-width: 100%;
+    row-gap: 50px;
+  }
 }

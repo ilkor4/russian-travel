@@ -1,8 +1,26 @@
 .intro {
-  box-sizing: content-box;
+  box-sizing: border-box;
   padding-top: 92px;
   display: flex;
   flex-direction: column;
   max-width: 690px;
-  margin-left: 148px;
+  text-align: left;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
 }
+
+@media screen and (max-width: 984px) {
+  .intro {
+    max-width: calc(100% - 48px);
+    margin: auto;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .intro {
+    max-width: calc(100% - 32px);
+    padding-top: 64px;
+  }
+}
+

@@ -1,18 +1,12 @@
 .cover {
-  padding-top: 92px;
-  box-sizing: content-box;
-  position: relative;
-  margin: auto;
-  max-width: 1184px;
-  height: 740px;
-  background-image: url(../../images/cover/cover\(1184:740\).jpg);
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-size: 100% calc(100% - 92px);
-  background-position: bottom;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: calc(100% - 96px);
+  margin: 0 auto;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1124px) {
+  .cover {
+    width: 100%;
+  }
 }

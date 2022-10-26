@@ -1,4 +1,13 @@
 .place__image {
+  align-self: flex-start;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 568px) {
+  .place__image {
+    width: calc(100% + 32px);
+    justify-self: start;
+    margin-left: -16px ;
+  }
 }

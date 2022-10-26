@@ -1,7 +1,9 @@
 .cover__overlay {
   position: absolute;
-  width: 100%;
-  height: calc(100% - 92px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
 }
@@ -9,5 +11,5 @@
 .cover:hover .cover__overlay{
   cursor: pointer;
   opacity: 0.8;
-  transition: opacity 0.6s ease-in-out;
+  transition: opacity 0.6s ease;
 }

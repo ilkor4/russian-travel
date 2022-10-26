@@ -1,12 +1,30 @@
 .place {
-  padding-top: 80px;
   display: grid;
-  width: 100%;
-  grid-template-columns: calc((100% - 40px)/2 - 12px) calc((100% - 40px)/2 + 12px);
-  grid-template-rows: max-content  1fr;
-  gap: 48px 32px;
+  max-width: 100%;
+  grid-template-columns: calc((100% - 64px)/2) 1fr; /* Вычитем отступ между колонками и разницу в размерах, делим их на 2 */
+  grid-template-rows: fit-content(152px) 1fr;
+  gap: 48px 40px;
 }
 
-.place:first-of-type {
-padding-top: 0;
+@media screen and (max-width: 1124px) {
+  .place {
+    grid-template-columns: calc((100% - 58px)/2) 1fr;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .place {
+    grid-template-columns: calc((100% - 40px)/2) 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place {
+    grid-template-columns: calc(100% - 32px);
+    grid-template-rows: auto;
+    row-gap: 32px;
+    justify-content: center;
+  }
 }
