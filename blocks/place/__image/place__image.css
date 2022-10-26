@@ -8,6 +8,6 @@
   .place__image {
     width: calc(100% + 32px);
     justify-self: start;
-    margin-left: -16px ;
+    margin-left: -16px;
   }
 }
