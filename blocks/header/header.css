@@ -18,7 +18,6 @@
 @media screen and (max-width: 568px) {
   .header {
     max-width: calc(100% - 32px);
-    justify-content: space-between;
     align-items: center;
   }
 }
