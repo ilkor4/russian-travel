@@ -7,7 +7,7 @@
   width: 100%;
   aspect-ratio: 1.6 / 1; /* Задаем высоту от ширины */
   /* Стили к bckg */
-  background-image: url(../../../images/cover/cover\(1184:740\).jpg);
+  background-image: url(../../../images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   /* Стили контейнера */
